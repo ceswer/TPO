@@ -17,6 +17,7 @@ String getWeather(String miasto) - zwraca informację o pogodzie w podanym mieś
 Double getRateFor(String kod_waluty) - zwraca kurs waluty danego kraju wobec waluty podanej jako argument,
 Double getNBPRate() - zwraca kurs złotego wobec waluty danego kraju
 Następujące przykładowa klasa  pokazuje możliwe użycie tych metod:
+```
 public class Main {
   public static void main(String[] args) {
     Service s = new Service("Poland");
@@ -27,6 +28,6 @@ public class Main {
     // część uruchamiająca GUI
   }
 }
-
+```
 Uwaga 1: zdefiniowanie pokazanych metod w sposób niezalezny od GUI jest obowiązkowe.
 Uwaga 2:  W katalogu projektu (np. w podkatalogu lib) nalezy umiescic wykorzystywane JARy (w przeciwnym razie program nie przejdzie kompilacji) i skonfigurowac Build Path tak, by wskazania na te JARy byly w Build Path zawarte.
