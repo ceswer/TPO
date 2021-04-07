@@ -1,4 +1,4 @@
-/**
+/*
  *
  *  @author Sukhetskyi Nazarii S20363
  *
@@ -34,7 +34,7 @@ public class Service {
         String weather = null;
         city = city.replaceAll("\\s", "");
         try {
-            URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+city+","+locale.getCountry()+"&appid=fdc5a4356adf6d98a09083b315c03549&units=metric");
+            URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+city+","+locale.getCountry()+"&appid=OWN KEY=metric");
             URLConnection request = url.openConnection();
             request.connect();
 
@@ -49,7 +49,7 @@ public class Service {
     public Double getRateFor(String currency) {
         Double rate = null;
         try {
-            URL base = new URL("http://data.fixer.io/api/latest?access_key=cd250296071f1ba8abba1b805ac50084&format=1");
+            URL base = new URL("http://data.fixer.io/api/latest?access_key=OWN KEY&format=1");
             URLConnection request = base.openConnection();
             request.connect();
 
@@ -66,7 +66,7 @@ public class Service {
     public Double getNBPRate() {
         Double rate = null;
         try {
-            URL base = new URL("http://data.fixer.io/api/latest?access_key=cd250296071f1ba8abba1b805ac50084&format=1");
+            URL base = new URL("http://data.fixer.io/api/latest?access_key=OWN KEY&format=1");
             URLConnection request = base.openConnection();
             request.connect();
 
