@@ -34,7 +34,7 @@ public class Service {
         String weather = null;
         city = city.replaceAll("\\s", "");
         try {
-            URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+city+","+locale.getCountry()+"&appid=OWN KEY=metric");
+            URL url = new URL("http://api.openweathermap.org/data/2.5/weather?q="+city+","+locale.getCountry()+"&appid=OWN KEY&units=metric");
             URLConnection request = url.openConnection();
             request.connect();
 
