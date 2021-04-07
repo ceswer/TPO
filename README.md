@@ -32,4 +32,6 @@ public class Main {
 Uwaga 1: zdefiniowanie pokazanych metod w sposób niezalezny od GUI jest obowiązkowe.
 Uwaga 2:  W katalogu projektu (np. w podkatalogu lib) nalezy umiescic wykorzystywane JARy (w przeciwnym razie program nie przejdzie kompilacji) i skonfigurowac Build Path tak, by wskazania na te JARy byly w Build Path zawarte.
 
+![Photo](https://github.com/ceswer/TPO/blob/main/TPO2_SN_S20363/TPO2.png)
+
 **Note: [javaFX](https://openjfx.io/) and [gson](https://github.com/google/gson) is essential to run the project!**
