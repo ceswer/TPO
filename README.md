@@ -34,4 +34,4 @@ Uwaga 2:  W katalogu projektu (np. w podkatalogu lib) nalezy umiescic wykorzysty
 
 ![Photo](https://github.com/ceswer/TPO/blob/main/TPO2_SN_S20363/TPO2.png)
 
-**Note: [javaFX](https://openjfx.io/) and [gson](https://github.com/google/gson) is essential to run the project!**
+**Note: [javaFX](https://openjfx.io/) and [gson](https://github.com/google/gson) are essential to run the project!**
