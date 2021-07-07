@@ -1,0 +1,54 @@
+form {
+    margin-top: 25px;
+    text-align: center;
+}
+
+.button {
+    padding: 10px 20px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: gray;
+    background-color: white;
+    border: 3px solid lightskyblue;
+    border-radius: 10px;
+    box-shadow: 0 3px gray;
+}
+
+.button:active {
+    border-color: lightskyblue;
+    background-color: white;
+    box-shadow: 0 3px gray;
+    transform: translateY(1px);
+}
+
+table {
+    margin-top: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+tbody tr:nth-child(odd) {
+  background-color: aliceblue;
+}
+
+tbody tr:nth-child(even) {
+    background-color: white;
+}
+
+th {
+    text-align: left;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+}
+
+td {
+    font-size: 15px;
+    padding: 10px 10px 10px 10px;
+}
+
+h3 {
+    text-align: center;
+    margin-top: 20%;
+}
